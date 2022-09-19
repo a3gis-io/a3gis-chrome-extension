@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+}
+
+#body {
+    background-color: #292526;
+}
+
+#container {
+    width: 320px;
+}
+
+#head {
+    height: 60px;
+}
+
+#risk {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.unknown {
+    color: #B5A3A7;
+}
+
+.safe {
+    color: #50B848;
+}
+
+.unsafe {
+    color: #C12026;
+}
+
+#content {
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#urls {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 265px 18px;
+    margin-top: 15px;
+}
+
+#url {
+    padding: 15px 15px 15px 15px;
+    display: inline-block;
+    width: 225px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #363032;
+    border-radius: 47px;
+    text-align: center;
+    color: #B5A3A7;
+}
+
+#verified {
+    float: right;
+    margin-top: 15px;
+}
+
+.verifyIcon {
+    height: 18px;
+    width: 18px;
+}
+
+#a3gis {
+    float: left;
+    width: 94px;
+    height: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#a3gis img {
+    width: 94px;
+    height: 15px;
+    opacity: 0.80;
+}
+
+#info {
+    text-align: center;
+    padding-top: 20px;
+    color: #B5A3A7;
+    font-size: 12px;
+}
+
+.default {
+    background-image: url(/images/gray.png);
+    background-size: 360px 80px;
+}
+
+.high {
+    background-image: url(/images/red.png);
+    background-size: 360px 80px;
+}
+
+.low {
+    background-image: url(/images/green.png);
+    background-size: 360px 80px;
+}
+
+#shield {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 25px;
+    left: 130px;
+}
+
+#shield img {
+    width: 65x;
+    height: 65px;
+}
+
+.join {
+    text-align: center;
+}
+
+#footer {
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: rgb(176, 176, 176);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#copy {
+    width: 100%;
+    text-align: center;
+}
+
+#copy p {
+    font-weight: lighter;
+    font-size: 10px;
+    color: rgb(176, 176, 176);
+}
+
+#footer a {
+    color: rgb(176, 176, 176);
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: rgb(210, 210, 210);
+    font-weight: 600;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #363032;
+    color: #B5A3A7;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #C12026;
+    color: white;
+}
